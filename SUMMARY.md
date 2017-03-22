@@ -16,7 +16,7 @@
 * 表单验证
 * $http服务器通讯
 * 新开窗口
-* swiper固定表头方式
+* swiper固定表头案例
 
 ## Methods
 
