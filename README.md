@@ -4,7 +4,7 @@
 
 1.menu\_list.js
 
-> /static/js/main/menu\_list.html
+> /static/js/main/menu\_list.js
 
 
 
