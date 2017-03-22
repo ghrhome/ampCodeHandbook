@@ -16,9 +16,11 @@ ui-view对应的页面结构是各个菜单页面主要实现功能的子页面�
  amp_main.loading_hide（）
 ```
 
-1.页面元素依赖
+### 在menu\_list.js中配置完整菜单后，功能页面的引入还需要下面三个步骤：
 
-2.module依赖
+1.页面元素依赖\(引入页面对应的js,css,图片资源\)
+
+2.module依赖\(在amp模块中注入页面实现需要的模块\)
 
 ```
 var ampApp = angular.module('amp', [
@@ -33,5 +35,7 @@ var ampApp = angular.module('amp', [
 ]);
 ```
 
-3.路由配置
+3.路由配置（实现对应菜单页面与view的绑定）
+
+
 
