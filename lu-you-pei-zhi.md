@@ -1,6 +1,8 @@
 # 路由配置
 
-下图是主页面的布局结构，其中MainController作为全局模块amp的主控制器，主要负责$rootScope作用域，子页面间切换时其生命周期的处理以及curProject等全局变量。
+![](/assets/amp_page_layout.png)
+
+上图是主页面的布局结构，其中MainController作为全局模块amp的主控制器，主要负责$rootScope作用域，子页面间切换时其生命周期的处理以及curProject等全局变量。
 
 ui-view对应的页面结构是各个菜单页面主要实现功能的子页面。
 
@@ -31,5 +33,5 @@ var ampApp = angular.module('amp', [
 ]);
 ```
 
-3.路由配置![](/assets/amp_page_layout.png)
+3.路由配置
 
