@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [配置](README.md)
+* [目录配置](README.md)
 
 ## Methods
 
