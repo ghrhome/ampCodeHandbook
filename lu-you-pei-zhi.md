@@ -14,6 +14,10 @@ ui-view对应的页面结构是各个菜单页面主要实现功能的子页面�
  amp_main.loading_hide（）
 ```
 
+1.页面元素依赖
+
+2.module依赖
+
 ```
 var ampApp = angular.module('amp', [
     'ui.router',
@@ -25,16 +29,7 @@ var ampApp = angular.module('amp', [
     "dataTool"
     //'noiFilters'
 ]);
-
 ```
 
-1.页面元素依赖
-
-2. module依赖
-
 3.路由配置![](/assets/amp_page_layout.png)
-
-
-
-
 
