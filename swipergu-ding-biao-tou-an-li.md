@@ -11,9 +11,10 @@
                    </tr>
                 </thead>
                 <tbody>
-                    <tr class="tr-main">
+                    <tr>
                         <th>...</th>
                     </tr>
+                    
                 </tbody>
            </table>
        </div><!--end ys-table-static-left-->
@@ -25,6 +26,8 @@
                             <tr>
                                 <th>...</th>
                             </tr>
+                        </thead>
+                            
 
 
    </div><!--end ys-table-main-->
