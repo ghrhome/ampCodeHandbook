@@ -15,8 +15,8 @@
 * controller之间通讯
 * 表单验证
 * [$http服务器通讯](httpfu-wu-qi-tong-xun.md)
-* 新开窗口
-* 理解页面结构
+* [新开窗口](xin-kai-chuang-kou.md)
+* [swiper实现固定表头](swipergu-ding-biao-tou-an-li.md)
 
 ## Methods
 
