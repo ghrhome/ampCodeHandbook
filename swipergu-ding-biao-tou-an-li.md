@@ -47,8 +47,11 @@
    </div><!--end ys-table-main-->
 </div><!--end amp-table-wrapper-swiper-->
 
+```
 
-<script>
+> js
+
+```
 var amp_main_swiper;
 amp_main_swiper = new Swiper('#amp-floor-main-table', {
             scrollbar: '.swiper-scrollbar-a',
@@ -59,14 +62,25 @@ amp_main_swiper = new Swiper('#amp-floor-main-table', {
             scrollbarHide:false,
             preventClicksPropagation:false
         });
-//页面销毁时，回收处理
-        $scope.$on("$destroy", function() {
-            //清除配置,不然swiper会重复请求
-            amp_main_swiper.destroy(true,true);
-        });
 
-</script>
+
 ```
+
+> ```
+> 页面销毁时，回收处理
+> ```
+
+```
+ $scope.$on("$destroy", function() {
+       //清除配置,不然swiper会重复监听
+       amp_main_swiper.destroy(true,true);
+       
+       });
+```
+
+
+
+
 
 > 表头随页面滚动，固定至页面顶部写法，用到了pin.js
 
