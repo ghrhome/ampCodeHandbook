@@ -48,7 +48,7 @@
 </div><!--end amp-table-wrapper-swiper-->
 ```
 
-> 表头随页面滚动，固定至页面顶部写法，用到了spin.js
+> 表头随页面滚动，固定至页面顶部写法，用到了pin.js
 
 ```
 <div class="amp-table-wrapper-swiper" id="noi-main-table-wrapper">
@@ -152,15 +152,25 @@
                 scrollbarHide:false,
                 //watchSlidesProgress:true,
             });
+            
             noi_head_swiper.params.control = noi_main_swiper;
             noi_main_swiper.params.control = noi_head_swiper;
-
 
             pin=$(".ys-table-fixed-top").pin({
                 containerSelector: "#noi-main-table-wrapper",
                 padding: {top: 44, bottom: 50}
             });
         };
+```
+
+> 页面销毁时，回收处理
+
+```
+$scope.$on("$destroy", function() {
+            //清除配置,不然swiper会重复请求
+            noi_head_swiper.destroy(true,true);
+            noi_main_swiper.destroy(true,true);
+        });
 ```
 
 
