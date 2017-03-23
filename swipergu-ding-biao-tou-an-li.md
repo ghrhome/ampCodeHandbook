@@ -14,7 +14,7 @@
                     <tr>
                         <th>...</th>
                     </tr>
-                    
+
                 </tbody>
            </table>
        </div><!--end ys-table-static-left-->
@@ -27,7 +27,11 @@
                                 <th>...</th>
                             </tr>
                         </thead>
-                            
+                        <tbody>
+                            <tr>
+                                <th>...</th>
+                            </tr>
+                        </tbody>
 
 
    </div><!--end ys-table-main-->
