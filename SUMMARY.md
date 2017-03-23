@@ -3,7 +3,7 @@
 ## Overview
 
 * [目录配置](README.md)
-* [理解页面结构](lu-you-pei-zhi.md)
+* [理解页面结构](li-jie-ye-mian-jie-gou.md)
 * [命名规范](ming-ming-gui-fan.md)
 * [项目结构](xiang-mu-jie-gou.md)
 * [angular路由配置](lu-you-pei-zhi.md)
@@ -16,7 +16,7 @@
 * 表单验证
 * [$http服务器通讯](httpfu-wu-qi-tong-xun.md)
 * 新开窗口
-* [swiper固定表头案例](swipergu-ding-biao-tou-an-li.md)
+* 理解页面结构
 
 ## Methods
 
