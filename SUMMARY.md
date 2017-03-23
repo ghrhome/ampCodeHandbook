@@ -6,7 +6,7 @@
 * [理解页面结构](lu-you-pei-zhi.md)
 * [命名规范](ming-ming-gui-fan.md)
 * [项目结构](xiang-mu-jie-gou.md)
-* [路由配置](lu-you-pei-zhi.md)
+* [angular路由配置](lu-you-pei-zhi.md)
 * [实现一个页面](shi-xian-yi-ge-ye-mian.md)
 * 简明controller教程
 * 简明service教程
