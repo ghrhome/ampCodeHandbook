@@ -52,25 +52,27 @@
 
 ```
 <div class="amp-table-wrapper-swiper">
+
     <!-- ys-table-fixed-top -->
      <div class="ys-table-fixed-top" style="padding-left:160px;">
-                <div class="ys-table-static ys-table-static-left" style="width:160px;">
-                    <table class="table table-no-bordered amp-table table-hover table-header-fixed" style="width:100%;">
-                        <thead>
-                            <tr>
-                                <th>...</th>
-                            </tr>
-                        </thead>
-                    </table>
-                </div>
+          <div class="ys-table-static ys-table-static-left" style="width:160px;">
+               <table class="table table-no-bordered amp-table table-hover table-header-fixed" style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th>...</th>
+                        </tr>
+                    </thead>
+               </table>
+           </div>
 
-                <div class="swiper-container" style="width:100%;" id="noi-main-table-head">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <table class="table table-no-bordered amp-table table-hover table-header-fixed" style="width:1500px;" >
-                                <thead>
-
-
+           <div class="swiper-container" style="width:100%;" id="noi-main-table-head">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <table class="table table-no-bordered amp-table table-hover table-header-fixed" style="width:1500px;" >
+                             <thead>
+                                    <tr>
+                                        <th>...</th>
+                                    </tr>
                                 </thead>
                             </table>
                         </div><!--swiper-slide-->
@@ -78,6 +80,7 @@
                 </div><!--swiper container-->
      </div>               
     <!--end ys-table-fixed-top -->
+    <!--ys-table-main-->
     <div class="ys-table-main" style="padding-left:160px;">
         <!--ys-table-static-left-->
         <div class="ys-table-static ys-table-static-left" style="width:160px;">
