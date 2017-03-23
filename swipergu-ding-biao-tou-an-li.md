@@ -48,10 +48,6 @@
 </div><!--end amp-table-wrapper-swiper-->
 ```
 
-
-
-
-
 > 表头随页面滚动，固定至页面顶部写法，用到了spin.js
 
 ```
@@ -132,7 +128,7 @@
 > js
 
 ```
-/*swiper */
+        /*swiper */
         var pin;
         var noi_head_swiper,noi_main_swiper;
         var swiper_init=function(){
@@ -159,9 +155,6 @@
             noi_head_swiper.params.control = noi_main_swiper;
             noi_main_swiper.params.control = noi_head_swiper;
 
-            //这里把swiper实例加入全局的垃圾回收站
-            /*ampApp.collector.add_swiper(noi_head_swiper);
-            ampApp.collector.add_swiper(noi_main_swiper);*/
 
             pin=$(".ys-table-fixed-top").pin({
                 containerSelector: "#noi-main-table-wrapper",
