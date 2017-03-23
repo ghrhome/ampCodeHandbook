@@ -23,7 +23,7 @@
        </div><!--end ys-table-static-left-->
 
        <!--swiper-container-->
-       <div class="swiper-container"  style="width:100%;">
+       <div class="swiper-container"  style="width:100%;" id="amp_floor_main_table">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <table class="table table-no-bordered amp-table table-hover" style="width:1800px;">
@@ -46,6 +46,26 @@
 
    </div><!--end ys-table-main-->
 </div><!--end amp-table-wrapper-swiper-->
+
+
+<script>
+var amp_main_swiper;
+amp_main_swiper = new Swiper('#amp-floor-main-table', {
+            scrollbar: '.swiper-scrollbar-a',
+            direction: 'horizontal',
+            slidesPerView: 'auto',
+            //mousewheelControl: true,
+            freeMode: true,
+            scrollbarHide:false,
+            preventClicksPropagation:false
+        });
+//页面销毁时，回收处理
+        $scope.$on("$destroy", function() {
+            //清除配置,不然swiper会重复请求
+            amp_main_swiper.destroy(true,true);
+        });
+
+</script>
 ```
 
 > 表头随页面滚动，固定至页面顶部写法，用到了pin.js
@@ -152,7 +172,7 @@
                 scrollbarHide:false,
                 //watchSlidesProgress:true,
             });
-            
+
             noi_head_swiper.params.control = noi_main_swiper;
             noi_main_swiper.params.control = noi_head_swiper;
 
