@@ -10,7 +10,7 @@
 * [实现一个页面](shi-xian-yi-ge-ye-mian.md)
 * 简明controller教程
 * 简明service教程
-* 简明directive教程
+* [简明directive教程](jian-ming-directive-jiao-cheng.md)
 * 简明filter教程
 * [controller之间通讯](controllerzhi-jian-tong-xun.md)
 * [表单验证](biao-dan-yan-zheng.md)

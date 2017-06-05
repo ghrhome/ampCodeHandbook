@@ -10,7 +10,7 @@
 
 2.module依赖\(在amp模块中注入页面实现需要的模块\)
 
-```
+```js
 var ampApp = angular.module('amp', [
     'ui.router',
     'noi',
