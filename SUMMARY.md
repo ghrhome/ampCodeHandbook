@@ -5,7 +5,7 @@
 * [理解页面结构](li-jie-ye-mian-jie-gou.md)
 * [目录配置](README.md)
 * [命名规范](ming-ming-gui-fan.md)
-* [项目结构](xiang-mu-jie-gou.md)
+* [项目结构\(pd-成本系统\)](xiang-mu-jie-gou.md)
 * [angular路由配置](lu-you-pei-zhi.md)
 * [实现一个页面](shi-xian-yi-ge-ye-mian.md)
 * [简明controller教程](jian-ming-controller-jiao-cheng.md)
