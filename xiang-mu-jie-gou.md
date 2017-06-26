@@ -40,6 +40,53 @@
 ```
 
 > 注意: dependencies: \['views/sample\_module\_view/sample\_view\_index'\], 把依赖的js,在dependencies里注入实现懒加载。
+>
+> css懒加载推荐在页面引用，如果自定义样式比较大，可以在resolve里配置load, \_loadCss\(url\)预加载。
+
+```
+<!-- 推荐页面加载对应css-->
+<link rel="stylesheet" href="../static/css/views/sample_module_view/sample_view.css">
+<div>
+    <h3>view</h3>
+    <h5>{{vCtrl.name}}</h5>
+</div>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
