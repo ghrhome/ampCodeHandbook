@@ -52,13 +52,25 @@
 </div>
 ```
 
-## js/views/sample\_module\_view,js的自定义涉及到controller,service,自定义directive,filter以及第三方插件，便于管理，在目录中增加一个{module\_name}\_index.js的依赖入口,router&gt;states里dependecies只引用{module\_name}\_index.js.
+#### js/views/sample\_module\_view,js的自定义涉及到controller,service,自定义directive,filter以及第三方插件，便于管理，在目录中增加一个{module\_name}\_index.js的依赖入口,router&gt;states里dependecies只引用{module\_name}\_index.js.
 
 ```
-//{module_name}_index.js
+//{module_name}_view_index.js
 
 define(["js/main/app","./sample_view","./services","./controllers"],function(app){
     app.useModule('myApp.sampleView')
+});
+```
+
+{module}\_view.js用于定义页面命名的module
+
+```
+//{module_name}_view.js
+
+define(["angular"],function(angular){
+
+    var viewModule=angular.module('myApp.sampleView', []);
+    return viewModule;
 });
 ```
 
