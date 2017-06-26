@@ -74,5 +74,30 @@ define(["angular"],function(angular){
 });
 ```
 
+页面对应的controller,service统一以{module}\_view.js命名的module作为命名空间
+
+```
+//{module_name}_controllers.js
+
+define(["angular",'./sample_view',"./services"],function(angular,viewModule){
+
+    viewModule.controller('sampleViewCtrl', ["$rootScope","$scope","$timeout","$state", "$stateParams","sampleViewService","preloadData",
+        function($rootScope,$scope,$timeout,$state,$stateParams,sampleViewService,preloadData) {
+            var self=this;
+            console.log("preload data--------------------------");
+            console.log(preloadData);
+            console.log("preload data--------------------------");
+
+            this.name="Sample View";
+            function _cb(data){
+                console.log(".....");
+                console.log(data);
+            }
+            sampleViewService.getData("",_cb)
+        }]);
+
+});
+```
+
 
 
