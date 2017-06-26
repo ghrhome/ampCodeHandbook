@@ -6,8 +6,6 @@
 >
 > router里配置如下：
 
-
-
 ```javascript
 .state('sample', {
                     //abstract: true,
@@ -40,6 +38,10 @@
                     }
                 })//state main
 ```
+
+> 注意: dependencies: \['views/sample\_module\_view/sample\_view\_index'\], 把依赖的js,在dependencies里注入实现懒加载。
+
+
 
 
 
