@@ -350,7 +350,6 @@ table.ys-table thead {
 }
 .ys-table tr>td.required{border-left:solid 2px #ff3030;}
 .ystable tr>td.edit{}
-
 ```
 
 
