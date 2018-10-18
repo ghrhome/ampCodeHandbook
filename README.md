@@ -30,7 +30,7 @@ var menu_list={
         },
 
         ]//end amp_menu
-        }//end menu_list
+     }//end menu_list
 ```
 
 菜单配置为amp\_menu对应的一个列表，
